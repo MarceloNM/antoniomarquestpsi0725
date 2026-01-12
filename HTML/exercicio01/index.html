@@ -7,9 +7,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Primeiro trabalho</h1>
-    <p><i>Exercício 1</i> a <b>12 de janeiro de 2026</b></p>
+    <header>
+        <h1>Primeiro trabalho</h1>
+        <p><i>Exercício 1</i> a <b>12 de janeiro de 2026</b></p>
+    </header>
+    <section>
+        <header>Isto é um texto longo</header>
+        <article>
+            <h3>10.1.2 Viewing Files Using a <i>Pager</i></h3>
+            While viewing small files with the <b>cat</b> command poses no problems, it is not an ideal choice 
+            for large files. The <b>cat</b> command doesn't provide any easy ways to pause and restart the 
+            display, so the entire file contents are dumped to the screen.
+            For larger files, use a <i>pager</i> command to view the contents. 
+            Pager commands display one page of data at a time, allowing you to move forward and 
+            backward in the file by using movement keys.
+            <br>
+            There are two commonly used pager commands:
+            <br>
+            - The <b>less</b> command provides a very advanced paging capability. It is usually the default 
+            pager used by commands like the <b>man</b> command.
+            <br>
+            - The <b>more</b> command has been around since the early days of <i>UNIX</i>. While it has fewer features 
+            than the <b>less</b>s command, however, the <b>less</b> command isn't included with all <i>Linux</i> distributions. 
+            The <b>more</b> command is always available.
+            <br>
+            The <b>more</b> and <b>less</b> commands allow users to move around the document using keystroke commands. 
+            Because developers based the <b>less</b> command on the functionality of the <b>more</b> command, all of 
+            the keystroke commands available in the <b>more</b> command also work in the <b>less</b> command.
+            The focus of our content is on the <b>more</b> advanced <b>less</b>s command. The <b>more</b> command is still 
+            useful to remember for times when the <b>less</b> command isn't available. Remember that most of 
+            the keystroke commands provided work for both commands.
+        </article>
 
+    </section>
+    <br><br>
     <form>
       <fieldset>
         <legend>Informações</legend>
@@ -26,8 +57,9 @@
       </fieldset>
     </form>
 
-    <p><a href="pag2.html" target="_self">Aqui</a> passa para a página 2</p>
-    <p><a href="pag3.html" target="_self">Aqui</a> passa para a página 3</p>
-
+    <footer>
+        <p><a href="pag2.html" target="_self">Aqui</a> passa para a página 2</p>
+        <p><a href="pag3.html" target="_self">Aqui</a> passa para a página 3</p>
+    </footer>
 </body>
 </html>
