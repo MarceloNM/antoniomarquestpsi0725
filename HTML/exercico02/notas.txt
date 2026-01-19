@@ -1,0 +1,58 @@
+         <a id="inicio"></a>
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" direction="ltr" width="3.0866em" height="0.87em" viewBox="0 -0.683 3.0866 0.87" style="vertical-align: -0.187em; overflow: visible; user-select: none;"><text fill="#000000" style="font-family: XITSMath-Regular; font-size: 1px" transform="translate(0,0)">𝐸</text><text fill="#000000" style="font-family: XITSMath-Regular; font-size: 1px" transform="translate(0.9918,0)">=</text><text fill="#000000" style="font-family: XITSMath-Regular; font-size: 1px" transform="translate(1.9546,0)">ℎ</text><text fill="#000000" style="font-family: XITSMath-Regular; font-size: 1px" transform="translate(2.5316,0)">𝑓</text></svg>
+    <text fill="#000000" style="font-family: XITSMath-Regular; font-size: 1px" transform="translate(0,0)">𝐸</text>
+    <text fill="#000000" style="font-family: XITSMath-Regular; font-size: 1px" transform="translate(0.9918,0)">=</text>
+    <text fill="#000000" style="font-family: XITSMath-Regular; font-size: 1px" transform="translate(1.9546,0)">ℎ</text>
+    <text fill="#000000" style="font-family: XITSMath-Regular; font-size: 1px" transform="translate(2.5316,0)">𝑓</text>
+<\svg>
+
+
+<p>
+  A razão entre populações de níveis é dada por:
+    <math>
+        <mfrac>
+            <mi>N</mi>
+            <mi>N</mi>
+        </mfrac>
+        <mrow>
+            <mn>2</mn>
+            <mo>/</mo>
+            <mn>1</mn>
+        </mrow>
+        <mo>=</mo>
+        <mfrac>
+            <mi>g</mi>
+            <mi>g</mi>
+        </mfrac>
+        <mrow>
+            <mn>2</content>
+            <mo>/</mo>
+            <mn>1</mn>
+        </mrow>
+        <mo>&#x2212;</mo>
+        <mi>exp</mi>
+        <mfenced open="(" close=")">
+            <mfrac>
+                <mrow>
+                    <mo>&#x220E;</mo>
+                    <mi>E</mi>
+                </mrow>
+                <mrow>
+                    <mi>k</mi>
+                    <mi>T</mi>
+                </mrow>
+            </mfrac>
+        </mfenced>
+    </math>
+</p>
+<p>
+    A razão entre populações de níveis é dada por:
+    $$ \frac{N_2}{N_1} = \frac{g_2}{g_1} e^{-\frac{\Delta E}{kT}} $$
+</p>
+<p>
+    A razão entre populações de níveis é dada por:
+    N<sub>2</sub>/N<sub>1</sub> = g<sub>2</sub>/g<sub>1</sub> exp(-&Delta;E/kT)
+</p>

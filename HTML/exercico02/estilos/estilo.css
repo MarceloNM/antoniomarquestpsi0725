@@ -33,3 +33,8 @@ ul li a:hover {
 .centro{
   text-align: center;
 }
+
+.caras {
+  width: 300px;
+  height: auto;
+}
