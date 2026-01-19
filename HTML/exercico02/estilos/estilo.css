@@ -29,3 +29,7 @@ ul li a {
 ul li a:hover {
   background-color: #addfee;
 }
+
+.centro{
+  text-align: center;
+}
