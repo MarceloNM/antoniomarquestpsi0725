@@ -1,0 +1,39 @@
+
+header, footer {
+    height: 30px;
+    background-color: rgb(177, 176, 176);
+    color: white;
+}
+
+footer {
+    text-align: center;
+}
+
+header {
+    padding-left: 50px;
+}
+
+.navblock {
+    padding: 0px 100px 0px 100px;
+    /*width: 50%; */
+    background-color: #f8a60d;
+}
+
+#mynav {
+    background-color: burlywood;
+    color: white;
+}
+
+
+
+.contflex {
+    display: flex;
+    background-color: white;
+}
+
+.contflex div {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
