@@ -23,13 +23,34 @@ header {
     background-color: burlywood;
     color: white;
 }
-
-
-
 .contflex {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     background-color: white;
+    padding: 10px;
 }
+.contflex div {
+  background-color: #f1f1f1;
+  /*border: 1px solid black;*/
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;}
+
+#primeira {
+    width: 30;
+    height: 20;
+}
+#segunda {
+    width: 30;
+    height: 20;
+}
+#terceira {
+    width: 30;
+    height: 20;
+}
+
+
+
 
 .contflex div {
     background-color: white;
