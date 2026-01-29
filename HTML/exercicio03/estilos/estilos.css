@@ -37,7 +37,7 @@
 }
 .contflex {
     display: grid;
-    grid-template-columns: 600px 600px 600px;
+    grid-template-columns: auto auto auto;
     background-color: white;
     padding: 10px;
 }
