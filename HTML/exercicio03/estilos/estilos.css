@@ -1,15 +1,27 @@
 
-header, footer {
-    height: 30px;
+.header, .footer {
+    height: 7vh;
+    display: flex;
+    align-items: center;
     background-color: rgb(177, 176, 176);
     color: white;
 }
 
-footer {
-    text-align: center;
+.header div {
+  /*background-color: #f1f1f1;
+  color:#000;*/
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  font-size: 30px;
 }
 
-header {
+.footer {
+    justify-content: center; 
+}
+
+.header {
     padding-left: 50px;
 }
 
@@ -25,7 +37,7 @@ header {
 }
 .contflex {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 600px 600px 600px;
     background-color: white;
     padding: 10px;
 }
@@ -34,7 +46,33 @@ header {
   /*border: 1px solid black;*/
   padding: 10px;
   font-size: 30px;
-  text-align: center;}
+  text-align: left;
+}
+
+.enoji {
+    max-width: 10%;
+    height: auto;
+    aspect-ratio: 16 / 9; /* Mantém proporção widescreen */
+    object-fit: cover; /* Recorta para preencher, sem distorcer */  
+}
+.imgcar {
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9; /* Mantém proporção widescreen */
+  object-fit: cover; /* Recorta para preencher, sem distorcer */  
+}
+
+.btncar {
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: #f8a60d;
+    border:none;
+    border-radius: 10px;
+}
+.txtcar {
+    font-size: 20px;
+}
 
 #primeira {
     width: 30;
