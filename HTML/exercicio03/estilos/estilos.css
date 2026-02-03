@@ -14,15 +14,20 @@
   margin: 10px;
   padding: 10px;
   text-align: left;
-  font-size: 30px;
+  font-size: 60px;
 }
 
+.logo {
+   /* width: 10px;
+    height: auto; */
+    color: black;
+}
 .footer {
     justify-content: center; 
 }
 
 .header {
-    padding-left: 50px;
+    padding-left: 30px;
 }
 
 .navblock {
